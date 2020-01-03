@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">FamilyManagement</string>
+    <string name="create_circle">Tạo Circle</string>
+    <string name="join_circle">Tham gia Circle</string>
+    <string name="list_circle">Danh sách Circle</string>
+    <string name="user_info">Xem thông tin cá nhân</string>
+    <string name="logout">Đăng xuất</string>
+    <string name="firstname">Họ tên</string>
+    <string name="username">Tên đăng nhập</string>
+    <string name="name_change_info">Thay đổi thông tin</string>
+</resources>

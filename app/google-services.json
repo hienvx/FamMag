@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "27808653608",
+    "firebase_url": "https://fammag-26f45.firebaseio.com",
+    "project_id": "fammag-26f45",
+    "storage_bucket": "fammag-26f45.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:27808653608:android:cdecc05a435a62ac10b01d",
+        "android_client_info": {
+          "package_name": "com.example.familymanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "27808653608-hnjkphg63qdong7nncpgcp6mpo3ugfh6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.familymanagement",
+            "certificate_hash": "85a718661309af8b7241e4937b074d68a351468f"
+          }
+        },
+        {
+          "client_id": "27808653608-aaqm509kd3rv0lmhcf1ju11vgfe82tq2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmHak6KfxgVUMlzBsFq_WdjNEsXhieKaQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "27808653608-aaqm509kd3rv0lmhcf1ju11vgfe82tq2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

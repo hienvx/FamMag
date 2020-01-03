@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1E90FF</color>
+    <color name="colorPrimaryDark">#0000ff</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="Black">#000000</color>
+    <color name="darkgreen">#006400</color>
+    <color name="lime">#00ff00</color>
+    <color name="green">#008000</color>
+    <color name="forestgreen">#228b22</color>
+    <color name="gainsboro">#dcdcdc</color>
+    <color name="textcolormain">#ffffff</color>
+    <color name="red">#ff0000</color>
+    <color name="backgroundprocfile">#0000ff</color>
+    <color name="highlightprimary">#0000fe</color>
+    <color name="btnentercodepin">#00bfff</color>
+    <color name="backgroundans">#87cefa</color>
+    <color name="backgroundmain">#e1f5fe</color>
+    <color name="backgroundsettings">#e0e0e0</color>
+    <color name="backgroundchoose">#f59740</color>
+</resources>

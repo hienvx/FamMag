@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/backgroundmain"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/btn_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="195dp"
+        android:src="@drawable/btnaccount"
+        android:background="@color/colorPrimary" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_create_circle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/colorPrimary"
+
+            android:text="@string/create_circle"
+            android:textColor="@color/textcolormain" />
+<!--        android:onClick="toCreateCircle"-->
+
+        <Button
+            android:id="@+id/btn_join_circle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/colorPrimary"
+
+            android:text="@string/join_circle"
+            android:textColor="@color/textcolormain" />
+<!--        android:onClick="toJoinCircle"-->
+
+        <Button
+            android:id="@+id/btn_list_circle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/colorPrimary"
+
+            android:text="@string/list_circle"
+            android:textColor="@color/textcolormain" />
+<!--        android:onClick="toListCircle"-->
+
+        <Button
+            android:id="@+id/btn_user_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/colorPrimary"
+            android:onClick="toUserInfo"
+            android:text="@string/user_info"
+            android:textColor="@color/textcolormain" />
+
+        <Button
+            android:id="@+id/btn_logout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/colorPrimary"
+            android:onClick="logout"
+            android:text="@string/logout"
+            android:textColor="@color/textcolormain" />
+    </LinearLayout>
+</LinearLayout>

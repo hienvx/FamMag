@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    android:scaleType="fitCenter"
+    tools:context=".SignIn">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textColor="@color/textcolormain"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imvemail"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/underline"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_email" />
+
+        <EditText
+            android:id="@+id/edit_tk_signin"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_weight="10"
+            android:background="@drawable/underline"
+            android:gravity="center"
+            android:hint="Tên đăng nhập"
+            android:singleLine="true"
+            android:textColor="@color/textcolormain"
+            android:textColorHint="@color/textcolormain" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imvpassword"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/underline"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_password" />
+
+        <EditText
+            android:id="@+id/edit_mk_signin"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_weight="10"
+            android:background="@drawable/underline"
+            android:gravity="center"
+            android:hint="Mật khẩu"
+            android:inputType="textPassword"
+            android:singleLine="true"
+            android:textColor="@color/textcolormain"
+            android:textColorHint="@color/textcolormain" />
+    </LinearLayout>
+
+
+    <CheckBox
+        android:id="@+id/cbsaveaccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:buttonTint="@color/textcolormain"
+        android:text="Lưu mật khẩu"
+        android:textColor="@color/textcolormain" />
+
+    <Button
+        android:id="@+id/btn_signin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/borderbtnlogin"
+        android:onClick="toMainActivity"
+        android:text="Đăng nhập"
+        android:textColor="@color/textcolormain" />
+
+    <TextView
+        android:id="@+id/tv_signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:onClick="toSignUpActivity"
+        android:text="Đăng ký"
+        android:textColor="@color/textcolormain" />
+
+
+</LinearLayout>
